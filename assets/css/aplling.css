@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+.app{
+        
+    
+    background-color: rgb(149, 213, 192);
+    width: 100vw;
+    height: 200vw;
+
+}
+.menu{
+    
+    font-size:20px;
+    background-color: white;
+    width: 100vw;
+    height: 12vh;
+    
+    
+}
+.mean1{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 6vh;
+    width: 8vw;border-width: 0px;
+}
+.mean1:hover{
+    background-color: rgb(150, 238, 19);
+    color:red ;
+}
+.mean2{ font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    border-width: 0px;
+
+}
+.mean2:hover{
+    background-color: rgb(150, 238, 19);
+    color:red ;
+}
+.now{
+    display: flex;
+    font-size: 20px;
+    margin-left: 1300px;
+    margin-top: -40px;
+
+}
+.sign{
+    padding: 10px;
+}
+.reg{
+    background-color: rgb(106, 181, 106);
+    color: aliceblue;
+    padding: 10px;
+    margin-left: 10px;
+}
+

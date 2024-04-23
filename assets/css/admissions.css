@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.adm{margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+
+.arrow{
+    font-size: 19px;
+    
+}
+.wel{
+    font-size: 50px;
+    margin-top: 20px;text-align: justif;
+
+
+}
+.apply{
+    font-size: 20px;
+    border: 1px solid black;
+    width: 15vw;background-color: blue;
+    list-style: none;
+    text-decoration: none;transform: translate(1000px ,10px);
+
+    
+
+
+}
+.apply:hover{
+    background-color: blue;
+    color: white;
+}
+.wel1{
+    
+    margin-top: 20px;
+    
+
+}
+.adm>p{
+    font-size: 20px;
+    width: 70%;
+    margin-top: 20PX;
+}
+.school{
+    width: 130px;
+    height: 130px;
+    margin-left: 550px;
+}
+.first{text-align: center;
+    margin-top: 15px;
+
+}
+.start{
+    font-size: 19px;
+    margin-left: 500px;
+    background-color: lightgrey;}
+.start1{
+
+    font-size: 19px;
+    margin-left: 560px;
+    background-color: lightgrey;
+}
+.paper{
+    font-size: 20px;
+      position: relative;
+      top: 15px;
+    margin-left: 500px;
+}

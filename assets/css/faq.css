@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.faq{margin-left: 40px;
+    margin-top: 40px;
+}
+.faq-1{
+    font-size: 19px;
+
+}
+.faq-2{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.ishage{margin-left: 40px;
+    margin-top: 40px;
+}
+.ishage1{
+    font-size: 20px;
+}
+.ishage2{
+    margin-top: 10px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+
+
+.ishtable{
+    width: 950px;
+}
+.ishage>p{
+    padding: 10px;
+    font-size: 19px;
+    width: 70%;
+}
+
+

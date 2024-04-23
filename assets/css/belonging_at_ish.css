@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main>p{
+    margin-right: 350px;
+    text-align: justify;
+    font-size: 19px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.main>ul>li{
+    font-size: 19px;
+}
+.main{
+    background-color: white;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+.main>a,h1,h3,ul,li{
+    margin-left: 50px;
+    padding: 10px;
+}
+/* box */
+
+.sri{
+    height: 290px;
+    width: 250px;
+    background-color: #2c2f74;
+    position: relative;
+    left: 1000px;
+    top: 200px;
+}
+.sri>ul>li{
+    padding: 15px;
+    list-style: none;
+    width: 250px;
+    transform: translateX(-110px);
+    font-size: 20px;
+}
+
+.co-cur{
+    background-color: orange;
+}
+.sri>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.sri>ul>li>a:hover{
+    text-decoration: underline;
+    
+}
+.sri{
+    transform: translate(50px,-900px);
+}
+
+/* laptop */
+@media screen and (min-width:769px) and (max-width:1025px) {
+    .main>p{
+        font-size: 19px;
+        width: 700px;
+
+    }
+    .dis{
+        font-size: 30px;
+    }
+    .dis1{
+        font-size: 20px;
+    }
+    .sri{
+        margin-left: 10px;
+        width: 250px;
+        height: 270px; 
+        left: 700px; 
+        bottom: 3190px; 
+    }
+    .sri>ul>li{
+        font-size: 18px;
+        width: 250px;
+    }
+
+}
+/* tablet */
+@media screen and (min-width:426px) and (max-width:769px) {
+    .main>p{
+        width: 450px;
+        font-size: 15px;
+
+    }
+    .main>ul>li{
+        font-size: 15px;
+    }
+    .sri{
+        bottom: 3210px;
+        width: 220px;
+        left: 470px;
+    }
+    .sri>ul>li{
+        font-size: 15px;
+        width: 220px;
+    }
+    .dis{
+        font-size: 15px;
+
+    }
+    .dis1{
+        font-size: 15px;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width:426px) {
+    .main>p{
+        width: 1600px;
+        font-size: 60px;
+        margin-right: 40px;
+
+    }
+    .main>ul>li{
+        font-size: 15px;
+    }
+    .main>h1{
+        font-size: 60px;
+        width: 100px;
+
+    }
+    .dis{
+        font-size: 70px;
+        margin-right: 0px;
+        
+    }
+    .dis1{
+        font-size: 50px;
+        margin-right: 0px;
+        position: relative;
+        bottom: 60px;
+        left: 440px;
+    }
+
+  
+}
